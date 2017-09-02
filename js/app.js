@@ -18,3 +18,8 @@ var app = new Framework7({
   },
   routes: routes
 });
+
+var login = localStorage.getItem("login");
+if(!login){
+	app.router.navigate('login')
+}
