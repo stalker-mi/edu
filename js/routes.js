@@ -8,6 +8,10 @@ var routes = [
   {
     path: '/about/',
     url: './pages/about.html',
-  }
+  },
+  {
+    path: '/login/',
+    componentUrl: './pages/login.html',
+  },
   
 ];
