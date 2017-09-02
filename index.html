@@ -12,45 +12,22 @@
     <div class="panel panel-left panel-reveal">
       <div class="page">
         <div class="page-content">
-          <div class="block-title">Left Panel</div>
-          <div class="block">
-            <p>This is a left side panel. You can close it by clicking outsite or on this link: <a href="#" class="panel-close">close me</a>. You can put here anything, even another isolated view like in <a href="#" data-panel="right" class="panel-open">Right Panel</a></p>
-          </div>
-          <div class="block-title">Main View Navigation</div>
+          <div class="block-title">Меню</div>
           <div class="list links-list">
             <ul>
               <li>
-                <a href="/accordion/" class="panel-close">Accordion</a>
+                <a href="/accordion/" class="panel-close">Мои программы</a>
               </li>
               <li>
-                <a href="/action-sheet/" class="panel-close">Action Sheet</a>
+                <a href="/action-sheet/" class="panel-close">Профиль</a>
               </li>
               <li>
-                <a href="/badge/" class="panel-close">Badge</a>
-              </li>
-              <li>
-                <a href="/buttons/" class="panel-close">Buttons</a>
-              </li>
-              <li>
-                <a href="/cards/" class="panel-close">Cards</a>
-              </li>
-              <li>
-                <a href="/checkbox/" class="panel-close">Checkbox</a>
-              </li>
-              <li>
-                <a href="/chips/" class="panel-close">Chips/Tags</a>
-              </li>
-              <li>
-                <a href="/contacts-list/" class="panel-close">Contacts List</a>
-              </li>
-              <li>
-                <a href="/data-table/" class="panel-close">Data Table</a>
+                <a href="/login/" class="panel-close">Выход</a>
               </li>
             </ul>
           </div>
           <div class="block">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
-            <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
+            <p>@Дистанционное обучение</p>
           </div>
         </div>
       </div>
@@ -61,7 +38,7 @@
           <div class="navbar-inner sliding">
             <div class="title">Образовательный портал</div>
             <div class="right">
-              <a class="link panel-open">меню</a>
+              <a class="link panel-open">Меню</a>
             </div>
             <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
               <div class="searchbar-inner">
@@ -76,40 +53,62 @@
           </div>
         </div>
         <div class="page-content">
-          <div class="list links-list">
-            <ul>
-              <li>
-                <a href="/about/">About Framework7</a>
-              </li>
-            </ul>
-          </div>
-          <div class="block-title searchbar-found">Components</div>
+			<div data-pagination='{"el": ".swiper-pagination", "clickable": true}' data-loop="true" data-navigation='{"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev"}' class="swiper-container swiper-init main_slider">
+			  <div class="swiper-pagination"></div>
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item-title">НОВЫЕ ПРОГРАММЫ</div>
+					<div class="item-title">Социальная работа и развитие организации системы социальной защиты населения</div>
+					<div class="item-title">Форма обучения: Очно-заочная</div>
+				</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+			  </div>
+			  <div class="swiper-button-prev"></div>
+			  <div class="swiper-button-next"></div>
+			</div>
+
+           <div class="card">
+			  <div class="card-header">Программы обучения:</div>
+			  <div class="card-content">
+				<div class="list media-list">
+				  <ul>
+					<li class="item-content">
+					  <div class="item-media"><img src="https://edu.soc-system.ru/html/i/listener_img/coursePattern.png" width="44"></div>
+					  <div class="item-inner">
+						<div class="button button-fill pull-right coursesCards__joinLink">Записаться</div>
+						<div class="item-title-row">
+						  <div class="item-title">Социальная работа и развитие организации системы социальной защиты населения</div>
+						</div>
+						<div class="item-subtitle">Форма обучения: Очно-заочная</div>
+					  </div>
+					</li>
+					<li class="item-content">
+					  <div class="item-media"><img src="https://edu.soc-system.ru/html/i/listener_img/coursePattern.png" width="44"></div>
+					  <div class="item-inner">
+						<div class="button button-fill pull-right coursesCards__joinLink">Записаться</div>
+						<div class="item-title-row">
+						  <div class="item-title">Бухгалтерский учет и аудит в бюджетных учреждениях (254 часа, дистант)</div>
+						</div>
+						<div class="item-subtitle">Форма обучения: Очно-заочная</div>
+					  </div>
+					</li>
+					<li class="item-content">
+					  <div class="item-media"><img src="https://edu.soc-system.ru/html/i/listener_img/coursePattern.png" width="44"></div>
+					  <div class="item-inner">
+						<div class="button button-fill pull-right coursesCards__joinLink">Записаться</div>
+						<div class="item-title-row">
+						  <div class="item-title">Профессиональная социальная работа: новейшие подходы</div>
+						</div>
+						<div class="item-subtitle">Форма обучения: Заочная</div>
+					  </div>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			 
+			</div>
          
-          <div class="block-title">Themes</div>
-          <div class="list links-list">
-            <ul>
-              <li>
-                <a href="./?theme=ios" class="external">iOS Theme</a>
-              </li>
-              <li>
-                <a href="./?theme=md" class="external">Material (MD) Theme</a>
-              </li>
-              <li>
-                <a href="/color-themes/">Color Themes</a>
-              </li>
-            </ul>
-          </div>
-          <div class="block-title">Page Loaders</div>
-          <div class="list links-list">
-            <ul>
-              <li>
-                <a href="/page-loader-template7/vladimir/123/about-me/1/?start=0&end=30#top">Template7 Page</a>
-              </li>
-              <li>
-                <a href="/page-loader-component/vladimir/123/about-me/1/?start=0&end=30#top">Component Page</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
