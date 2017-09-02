@@ -1,1 +1,15 @@
 
+.hide{
+	display:none;
+}
+.pull-right{
+	float:right;
+}
+.coursesCards__joinLink{
+	background-color: #c24fcb !important;
+	margin-top: 4px;
+}
+.main_slider{
+	height:50%;
+	min-height:200px;
+}
