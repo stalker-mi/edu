@@ -13,9 +13,7 @@
       Vladimir Demidovich
   </author>
     
-    <platform name="android" />
-    
-    <icon src="icons/icon.png" />
+    <icon src="icons/19.jpg" />
     
     <access origin="*"/>
     <plugin name="cordova-plugin-whitelist" version="1" />
